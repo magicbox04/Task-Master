@@ -104,3 +104,19 @@ To access doxygen documentation, go to: html/index.html
 
 Here is a youtube link to a video demo:
 https://youtu.be/WjS0Eun9Fvw
+
+# Task Master
+
+Project management app built by a 5-person team (Group 56) for a Western University course, Winter 2025.
+C++ backend (Crow, SQLite, Asio) with a Node.js/React frontend.
+
+## My Contribution (Robin / Sangjae Lee)
+
+This is a recovered copy of our original course GitLab repo, so the commit history only shows the uploader.
+Authorship is recorded in each file's `@author` tag.
+
+I led backend development and wrote most of the backend:
+- User, Task, Comment, Project, and TodoList modules (`backend/`)
+- 16 REST endpoints for users, auth, tasks, and projects in the Crow API server (`backend/server.cpp`)
+- Adapted a teammate's SQLite schema (`backend/schema.sql`) as the API evolved
+- Debugged integration issues between the frontend and backend
